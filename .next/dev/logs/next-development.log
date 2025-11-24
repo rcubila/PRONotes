@@ -40,3 +40,7 @@ https://nextjs.org/docs/messages/module-not-found
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
 [01:59:10.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:59:36.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:31.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:49.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:23.111] Server  LOG      ✓ Compiled in 178ms
+[02:03:24.553] Browser ERROR   unhandledRejection: undefined
