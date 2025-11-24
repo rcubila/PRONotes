@@ -197,14 +197,16 @@
 @layer base {
   * {
     @apply border-border;
-    outline: 1px solid transparent;
-    outline-color: rgba(123, 109, 255, 0.35);
+  }
+
+  *:focus-visible {
+    outline: 2px solid rgba(123, 109, 255, 0.6);
     outline-offset: 2px;
   }
 
-  @supports (color: color-mix(in oklch, white, black)) {
-    * {
-      outline-color: color-mix(in oklch, var(--ring) 50%, transparent);
+  @supports (outline: 2px solid color-mix(in oklch, white, black)) {
+    *:focus-visible {
+      outline-color: color-mix(in oklch, var(--ring) 55%, transparent);
     }
   }
 

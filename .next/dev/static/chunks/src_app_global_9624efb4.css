@@ -262,13 +262,16 @@ img, video {
 
 * {
   border-color: var(--border);
-  outline-offset: 2px;
-  outline: 1px solid #7b6dff59;
 }
 
-@supports (color: color-mix(in oklch, white, black)) {
-  * {
-    outline-color: color-mix(in oklch, var(--ring) 50%, transparent);
+:focus-visible {
+  outline-offset: 2px;
+  outline: 2px solid #7b6dff99;
+}
+
+@supports (outline: 2px solid color-mix(in oklch, white, black)) {
+  :focus-visible {
+    outline-color: color-mix(in oklch, var(--ring) 55%, transparent);
   }
 }
 
