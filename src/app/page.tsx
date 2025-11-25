@@ -245,6 +245,22 @@ export default function WorkflowDashboard() {
       completed: false,
       subtasks: [
         {
+          id: "ddt-open-quip",
+          title: "Open Quip workspace (ZRH cluster documentation space).",
+          completed: false,
+        },
+        {
+          id: "ddt-find-tracker",
+          title: 'Search for "ZRH Cluster - Ticket Tracker" file.',
+          completed: false,
+        },
+        {
+          id: "ddt-master-ticket-link",
+          title:
+            'Open the link titled "ZRH60 [Daily Device Test Master Ticket] [MM/DD/YYYY to MM/DD/YYYY]".',
+          completed: false,
+        },
+        {
           id: "ddt-slack-start",
           title:
             "Send “Daily Device Test in ZRH60 starting” Slack note with officers + TT link.",

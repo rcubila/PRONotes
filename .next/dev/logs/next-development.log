@@ -64,3 +64,4 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 [26:30:47.324] Server  WARN     ⚠ Cross origin request detected from e9839ed0ed8029.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
 [26:30:47.482] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:34:49.447] Server  LOG      ✓ Compiled in 129ms
