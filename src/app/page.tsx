@@ -470,6 +470,23 @@ export default function WorkflowDashboard() {
     );
   };
 
+  const handleToggleSubtask = (taskId: string, subtaskId: string) => {
+    setTasks((prev) =>
+      prev.map((task) =>
+        task.id === taskId
+          ? {
+              ...task,
+              subtasks: task.subtasks.map((subtask) =>
+                subtask.id === subtaskId
+                  ? { ...subtask, completed: !subtask.completed }
+                  : subtask
+              ),
+            }
+          : task
+      )
+    );
+  };
+
   const completedCount = tasks.filter((t) => t.completed).length;
   const totalCount = tasks.length;
   const completionPercentage = totalCount
@@ -632,6 +649,7 @@ export default function WorkflowDashboard() {
                     {...task}
                     index={index}
                     onToggle={handleToggleTask}
+                    onToggleSubtask={handleToggleSubtask}
                   />
                 </motion.div>
               ))}
