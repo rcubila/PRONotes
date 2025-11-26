@@ -18,7 +18,7 @@ export default function RootLayout({
               {[
                 {
                   label: "ZRH60 Operations Console",
-                  href: "/",
+                  href: "/#console",
                 },
                 {
                   label: "New Tools ZRH",

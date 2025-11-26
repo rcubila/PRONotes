@@ -542,6 +542,7 @@ export default function WorkflowDashboard() {
       />
 
       <motion.div
+        id="console"
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
@@ -971,6 +972,26 @@ export default function WorkflowDashboard() {
           ))}
         </motion.div>
       </motion.div>
+
+      <section
+        id="new-tools"
+        className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16"
+      >
+        <div className="glass rounded-2xl border border-white/10 px-6 py-10">
+          <p className="text-xs uppercase tracking-wide text-white/50 mb-2">
+            Upcoming
+          </p>
+          <h2 className="text-3xl font-semibold text-white mb-3">
+            New Tools ZRH
+          </h2>
+          <p className="text-white/70 text-sm max-w-3xl">
+            This space is reserved for the next wave of automation dashboards
+            (PDE simulators, CGF validation helpers, visitor tracker exports,
+            and anything else we scope). Drop requirements in the task list and
+            we&apos;ll pin the finalized tools here when they are ready.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }

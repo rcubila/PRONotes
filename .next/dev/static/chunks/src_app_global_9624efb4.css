@@ -551,6 +551,10 @@ body {
   max-width: 80rem;
 }
 
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -695,6 +699,10 @@ body {
 
 .rounded-lg {
   border-radius: var(--radius-lg);
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .border {
@@ -969,6 +977,11 @@ body {
   padding-bottom: 2rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pl-0 {
   padding-left: 0;
 }
@@ -983,6 +996,10 @@ body {
 
 .pt-3 {
   padding-top: .75rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-center {
@@ -1021,6 +1038,11 @@ body {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
