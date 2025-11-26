@@ -18,11 +18,11 @@ export default function RootLayout({
               {[
                 {
                   label: "ZRH60 Operations Console",
-                  href: "/#console",
+                  href: "/",
                 },
                 {
                   label: "New Tools ZRH",
-                  href: "/#new-tools",
+                  href: "/new-tools",
                 },
               ].map((item) => (
                 <Link

@@ -105,3 +105,173 @@ Import traces:
 [49:25:38.796] Server  WARN     ⚠ Cross origin request detected from 97cca872b843f4.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
 [49:25:38.968] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[49:38:15.046] Server  LOG      ✓ Compiled in 83ms
+[49:39:17.872] Server  LOG      ✓ Compiled in 97ms
+[49:39:19.549] Browser ERROR   uncaughtError: ReferenceError: awsCalendars is not defined
+[49:39:33.525] Server  ERROR    ⨯ ReferenceError: awsCalendars is not defined
+[49:39:35.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[49:39:35.405] Browser ERROR   uncaughtError: ReferenceError: awsCalendars is not defined
+[49:40:32.854] Server  LOG      ✓ Compiled in 84ms
+[49:40:33.912] Browser ERROR   ./src/app/page.tsx:1104:1
+Parsing ecmascript source code failed
+  1102 |     </main>
+  1103 |   );
+> 1104 | }
+       | ^
+  1105 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:40:56.734] Server  LOG      ✓ Compiled in 59ms
+[49:40:58.022] Browser ERROR   ./src/app/page.tsx:1102:20
+Parsing ecmascript source code failed
+  1100 |
+  1101 |         {/* New Tools content moved to /new-tools route */}
+> 1102 |       </motion.div>
+       |                    ^
+> 1103 |     </main>
+       | ^^^^^
+  1104 |   );
+  1105 | }
+  1106 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:41:25.926] Browser ERROR   ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:41:42.577] Server  ERROR    ⨯ ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[49:41:44.277] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[49:41:44.388] Browser ERROR   ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:41:44.632] Browser ERROR   ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:43:52.791] Server  LOG      ✓ Compiled in 102ms
+[49:45:46.869] Server  LOG      ✓ Compiled in 68ms
