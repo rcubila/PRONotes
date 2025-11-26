@@ -74,3 +74,31 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 [48:34:53.038] Server  LOG      ✓ Compiled in 46ms
 [48:35:09.396] Server  LOG      ✓ Compiled in 78ms
 [48:35:19.750] Server  LOG      ✓ Compiled in 57ms
+[48:48:58.010] Server  LOG      ✓ Compiled in 89ms
+[48:48:58.288] Browser ERROR   ./src/app/page.tsx:579:1
+Parsing ecmascript source code failed
+  577 |   "💻 Camera Troubleshooting (Communication Lost)",
+  578 |
+> 579 | export default function WorkflowDashboard() {
+      | ^^^^^^
+  580 |   const [tasks, setTasks] = useState<Task[]>([
+  581 |     {
+  582 |       id: "ddt-slack-scheduler",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[48:51:13.182] Server  LOG      ✓ Compiled in 67ms
+[48:53:50.603] Server  LOG      ✓ Compiled in 65ms
+[48:55:20.276] Server  LOG      ✓ Compiled in 94ms
+[48:55:21.934] Browser ERROR   uncaughtError: ReferenceError: React is not defined
+[48:55:21.934] Browser ERROR   unhandledRejection: undefined
+[48:55:30.523] Server  LOG      ✓ Compiled in 72ms
+[48:55:31.107] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
