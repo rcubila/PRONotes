@@ -1,0 +1,277 @@
+[00:00:00.432] Server  LOG     
+[00:00:00.432] Server  LOG        We detected TypeScript in your project and created a tsconfig.json file for you.
+[00:00:00.488] Server  LOG      ✓ Ready in 313ms
+[00:03:02.745] Server  ERROR    ⨯ ./src/app/global.css
+Error evaluating Node.js code
+CssSyntaxError: /workspace/src/app/global.css:1:1: The `outline-ring/50` class does not exist. If `outline-ring/50` is a custom class, make sure it is defined within a `@layer` directive.
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at AtRule.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at processApply (/workspace/node_modules/tailwindcss/lib/lib/expandApplyAtRules.js:380:29)]
+    [at /workspace/node_modules/tailwindcss/lib/lib/expandApplyAtRules.js:551:9]
+    [at /workspace/node_modules/tailwindcss/lib/processTailwindFeatures.js:55:50]
+    [at async plugins (/workspace/node_modules/tailwindcss/lib/plugin.js:38:17)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/global.css [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+
+
+./src/app/layout.tsx:1:1
+Module not found: Can't resolve './globals.css'
+> 1 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function RootLayout({
+  4 |   children,
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:05.378] Server  LOG      ✓ Compiled in 436ms
+[01:59:10.095] Server  WARN     ⚠ Cross origin request detected from 12eeb685636658.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[01:59:10.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:36.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:31.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:49.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:23.111] Server  LOG      ✓ Compiled in 178ms
+[02:03:24.553] Browser ERROR   unhandledRejection: undefined
+[02:06:14.568] Server  WARN     ⚠ Cross origin request detected from 16d599375ea681.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[02:06:14.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:07:21.241] Server  LOG      ✓ Compiled in 123ms
+[02:08:33.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:09:37.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:20:25.949] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:49.564] Server  LOG      ✓ Compiled in 125ms
+[05:50:47.468] Server  WARN     ⚠ Cross origin request detected from 2a2f6b464e933e.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[05:50:47.649] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:46:05.583] Server  WARN     ⚠ Cross origin request detected from 3c034dcb130772.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[22:46:05.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:48:52.897] Server  LOG      ✓ Compiled in 96ms
+[22:48:55.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:48:59.975] Server  LOG      ✓ Compiled in 118ms
+[26:30:47.324] Server  WARN     ⚠ Cross origin request detected from e9839ed0ed8029.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[26:30:47.482] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:34:49.447] Server  LOG      ✓ Compiled in 129ms
+[48:30:58.252] Server  WARN     ⚠ Cross origin request detected from 315f0b18bcc058.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[48:30:58.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[48:33:04.998] Server  LOG      ✓ Compiled in 516ms
+[48:33:07.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[48:33:12.336] Server  LOG      ✓ Compiled in 51ms
+[48:34:53.038] Server  LOG      ✓ Compiled in 46ms
+[48:35:09.396] Server  LOG      ✓ Compiled in 78ms
+[48:35:19.750] Server  LOG      ✓ Compiled in 57ms
+[48:48:58.010] Server  LOG      ✓ Compiled in 89ms
+[48:48:58.288] Browser ERROR   ./src/app/page.tsx:579:1
+Parsing ecmascript source code failed
+  577 |   "💻 Camera Troubleshooting (Communication Lost)",
+  578 |
+> 579 | export default function WorkflowDashboard() {
+      | ^^^^^^
+  580 |   const [tasks, setTasks] = useState<Task[]>([
+  581 |     {
+  582 |       id: "ddt-slack-scheduler",
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[48:51:13.182] Server  LOG      ✓ Compiled in 67ms
+[48:53:50.603] Server  LOG      ✓ Compiled in 65ms
+[48:55:20.276] Server  LOG      ✓ Compiled in 94ms
+[48:55:21.934] Browser ERROR   uncaughtError: ReferenceError: React is not defined
+[48:55:21.934] Browser ERROR   unhandledRejection: undefined
+[48:55:30.523] Server  LOG      ✓ Compiled in 72ms
+[48:55:31.107] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[49:25:38.796] Server  WARN     ⚠ Cross origin request detected from 97cca872b843f4.lhr.life to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[49:25:38.968] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[49:38:15.046] Server  LOG      ✓ Compiled in 83ms
+[49:39:17.872] Server  LOG      ✓ Compiled in 97ms
+[49:39:19.549] Browser ERROR   uncaughtError: ReferenceError: awsCalendars is not defined
+[49:39:33.525] Server  ERROR    ⨯ ReferenceError: awsCalendars is not defined
+[49:39:35.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[49:39:35.405] Browser ERROR   uncaughtError: ReferenceError: awsCalendars is not defined
+[49:40:32.854] Server  LOG      ✓ Compiled in 84ms
+[49:40:33.912] Browser ERROR   ./src/app/page.tsx:1104:1
+Parsing ecmascript source code failed
+  1102 |     </main>
+  1103 |   );
+> 1104 | }
+       | ^
+  1105 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:40:56.734] Server  LOG      ✓ Compiled in 59ms
+[49:40:58.022] Browser ERROR   ./src/app/page.tsx:1102:20
+Parsing ecmascript source code failed
+  1100 |
+  1101 |         {/* New Tools content moved to /new-tools route */}
+> 1102 |       </motion.div>
+       |                    ^
+> 1103 |     </main>
+       | ^^^^^
+  1104 |   );
+  1105 | }
+  1106 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:41:25.926] Browser ERROR   ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:41:42.577] Server  ERROR    ⨯ ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[49:41:44.277] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+[49:41:44.388] Browser ERROR   ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:41:44.632] Browser ERROR   ./src/app/page.tsx:981:20
+Parsing ecmascript source code failed
+  979 |
+  980 |         {/* New Tools content moved to /new-tools route */}
+> 981 |       </motion.div>
+      |                    ^
+> 982 |     </main>
+      | ^^^^^
+  983 |   );
+  984 | }
+  985 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[49:43:52.791] Server  LOG      ✓ Compiled in 102ms
+[49:45:46.869] Server  LOG      ✓ Compiled in 68ms

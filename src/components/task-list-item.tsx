@@ -20,6 +20,7 @@ interface TaskListItemProps {
   subtasks?: Subtask[];
   index: number;
   onToggle: (id: string) => void;
+  onToggleSubtask?: (taskId: string, subtaskId: string) => void;
 }
 
 export function TaskListItem({
@@ -31,6 +32,7 @@ export function TaskListItem({
   subtasks = [],
   index,
   onToggle,
+  onToggleSubtask,
 }: TaskListItemProps) {
   const [expanded, setExpanded] = useState(false);
 
@@ -174,7 +176,11 @@ export function TaskListItem({
                     duration: animationDurations.fast,
                     delay: idx * 0.03,
                   }}
-                  className="flex items-center gap-3 px-4 py-2 rounded-lg ml-4 hover:bg-white/3 border-l-2 border-l-white/10 transition-all duration-300"
+                  className="flex items-center gap-3 px-4 py-2 rounded-lg ml-4 hover:bg-white/3 border-l-2 border-l-white/10 transition-all duration-300 cursor-pointer"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onToggleSubtask?.(id, subtask.id);
+                  }}
                 >
                   <div className="w-4 h-4 flex-shrink-0" />
                   <motion.div
